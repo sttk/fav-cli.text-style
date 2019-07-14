@@ -1,0 +1,52 @@
+{
+  "name": "@fav/cli.text-style",
+  "version": "0.0.0",
+  "description": "Decorate terminal text with ANSI escape code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha test",
+    "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
+    "coveralls": "nyc --reporter=text-lcov npm test | coveralls",
+    "build": "npm run lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sttk/fav-cli.text-style.git"
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "style",
+    "text",
+    "decorate",
+    "ansi",
+    "escape",
+    "terminal",
+    "console",
+    "cli",
+    "256",
+    "truecolor",
+    "rgb",
+    "fav"
+  ],
+  "author": "Takayuki Sato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sttk/fav-cli.text-style/issues"
+  },
+  "homepage": "https://github.com/sttk/fav-cli.text-style#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^6.0.1",
+    "mocha": "^3.5.3",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "@fav/cli.get-color-depth": "^0.1.1"
+  }
+}
