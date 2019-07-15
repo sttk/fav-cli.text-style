@@ -1,11 +1,12 @@
 {
   "name": "@fav/cli.text-style",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Decorate terminal text with ANSI escape code",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "mocha test",
