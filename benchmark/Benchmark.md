@@ -5,7 +5,7 @@
 Comparing with following modules:
 
 * [chalk](https://www.npmjs.com/package/chalk)
-* [ansi-colors](https://www.npmjs.com/package/ansi-colors))
+* [ansi-colors](https://www.npmjs.com/package/ansi-colors)
 
 |        | @fav/cli.text-style(0.1.0) | chalk(2.4.2)  | ansi-colors(4.1.1) |
 |:-------|---------------------------:|--------------:|-------------------:|

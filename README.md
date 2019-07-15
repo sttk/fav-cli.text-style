@@ -206,7 +206,7 @@ See the file LICENSE in this distribution for more details.
 [travis-url]: https://travis-ci.org/sttk/fav-cli.text-style
 [appveyor-img]: https://ci.appveyor.com/api/projects/status/github/sttk/fav-cli.text-style?branch=master&svg=true
 [appveyor-url]: https://ci.appveyor.com/project/sttk/fav-cli-text-style
-[coverage-img]: https://coveralls.io/repos/github/sttk/fav-cli.text-tyle/badge.svg?branch=master
+[coverage-img]: https://coveralls.io/repos/github/sttk/fav-cli.text-style/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/sttk/fav-cli.text-style?branch=master
 
 [chalk-url]: https://github.com/chalk/chalk
