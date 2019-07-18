@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha test",
+    "test": "mocha --recursive",
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
     "coveralls": "nyc --reporter=text-lcov npm test | coveralls",
     "build": "npm run lint && npm run coverage"
