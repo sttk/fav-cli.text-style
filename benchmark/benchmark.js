@@ -34,7 +34,11 @@ function testColors(styles, names) {
 }
 
 function testNested(styles, names) {
-  names.reduce((result, name) => styles[name](result));
+  names.reduce((result, name) => styles[name](result), 'bar');
+}
+
+function testNested2(styles, names) {
+  names.reduce((result, name) => 'A' + styles[name](result) + 'B', 'bar');
 }
 
 new BenchmarkTester()
@@ -47,5 +51,10 @@ new BenchmarkTester()
   .addTest('chalk', testNested)
   .addTest('ansi-colors', testNested)
   .runTest('Nested', colors)
+
+  .addTest('@fav/cli.text-style', testNested2)
+  .addTest('chalk', testNested2)
+  .addTest('ansi-colors', testNested2)
+  .runTest('Nested2', colors)
 
   .print();
